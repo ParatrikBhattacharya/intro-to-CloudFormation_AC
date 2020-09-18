@@ -1,0 +1,9 @@
+Resources:
+  Ec2Instance:
+    Type: AWS::EC2::Instance
+    Properties:
+      InstanceType: t2.micro
+      ImageId: ami-0841edc20334f9287 # Amazon Linux AMI in Oregon, us-west-2
+      Tags:
+        - Key: Name
+          Value: Patb created a simple example
